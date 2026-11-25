@@ -29,7 +29,7 @@ import {
   transcribeAudioClip,
 } from './src/server/gemini.ts';
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const app = express();
 app.use(express.json({ limit: '15mb' }));
 
