@@ -1,0 +1,11 @@
+{
+  "name": "Echo: AI-Powered Real-Time Speaking Coach",
+  "description": "AI-powered speaking coach combining real-time speech transcription, speaking performance metrics, browser-based MediaPipe visual cues, mock interviews, and Gemini coaching reports.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
